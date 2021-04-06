@@ -9,7 +9,7 @@ soundex algorithm python
   <li>Change all occurrences of the following letters to ’0’ (zero): A, E, I, O, U, H, W, Y</li>
   <li>Change letters to digits as follows : B, F, P, V to 1</li>
   <ul>
-    <ol></ol>
+    <ol>hello</ol>
   </ul>
   <li>C, G, J, K, Q, S, X, Z to 2</li>
   <li>D,T to 3</li>
