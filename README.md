@@ -7,15 +7,15 @@ soundex algorithm python
 <ul>
   <li>Retain the first letter of the term.</li>
   <li>Change all occurrences of the following letters to ’0’ (zero): A, E, I, O, U, H, W, Y</li>
-  <li>Change letters to digits as follows : B, F, P, V to 1</li>
+  <li>Change letters to digits as follows : </li>
   <ul>
-    <ol>hello</ol>
+    <ol>B, F, P, V to 1</ol>
+    <ol>C, G, J, K, Q, S, X, Z to 2</ol>
+    <ol>D,T to 3</ol>
+    <ol>L to 4</ol>
+    <ol>M, N to 5</ol>
+    <ol>R to 6</ol>
   </ul>
-  <li>C, G, J, K, Q, S, X, Z to 2</li>
-  <li>D,T to 3</li>
-  <li>L to 4</li>
-  <li>M, N to 5</li>
-  <li>R to 6</li>
   <li>Repeatedly remove one out of each pair of consecutive identical digits</li>
   <li>Remove all zeros from the resulting string; pad the resulting string
      with trailing zeros and return the first four positions, which will
