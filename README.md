@@ -8,6 +8,9 @@ soundex algorithm python
   <li>Retain the first letter of the term.</li>
   <li>Change all occurrences of the following letters to ’0’ (zero): A, E, I, O, U, H, W, Y</li>
   <li>Change letters to digits as follows : B, F, P, V to 1</li>
+  <ul>
+    <ol></ol>
+  </ul>
   <li>C, G, J, K, Q, S, X, Z to 2</li>
   <li>D,T to 3</li>
   <li>L to 4</li>
@@ -19,10 +22,8 @@ soundex algorithm python
      consist of a letter followed by three digits</li>
 </ul>
 
-<p>* Using this algorithm, both "Robert" and "Rupert" return the same string "R163" while "Rubin" yields "R150". "Ashcraft" and "Ashcroft" both yield "A261". "Tymczak" yields "T522"          not "T520" (the chars 'z' and 'k' in the name are coded as 2 twice since a vowel lies in between them). "Pfister" yields "P236" not "P123" (the first two letters have the same     number and are coded once as 'P'), and "Honeyman" yields "H555".
-     
-</p>
-<hr>
+<p>* Using this algorithm, both "Robert" and "Rupert" return the same string "R163" while "Rubin" yields "R150".</p>
+
 
 
 
