@@ -26,7 +26,7 @@ soundex algorithm python
 
 # Code
 
-
+```
 def Soundex(name):
     name = name.upper()
 
@@ -58,7 +58,7 @@ def Soundex(name):
 if __name__ == '__main__':
     name = input('Enter YourName Or LastName : ')
     Soundex(name)
-
+```
 
 
 
